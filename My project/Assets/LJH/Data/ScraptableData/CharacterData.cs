@@ -5,14 +5,17 @@ public class CharacterData : ScriptableObject, IDisplayable
 {
     [SerializeField]
     private string characterName;
-
     [SerializeField]
     private Sprite characterPreviewImage;
-
+    [SerializeField] 
+    private GameObject prefab;
     [SerializeField]
-    private int prefab;
+    private BaseData baseStats;
 
-    public int CharacterPrefab => prefab;
+    public string CharacterName => characterName;
+    public Sprite Preview => characterPreviewImage;
+    public GameObject Prefab => prefab;
+    public BaseData BaseStats => baseStats;  
 
     private int canSeletable = 1;
 
