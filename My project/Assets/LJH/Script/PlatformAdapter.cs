@@ -11,6 +11,8 @@ public class PlatformAdapter
 
     public ItemData[] spawnableItemDatas { get; private set; }
 
+    public BuffData[] gainableBuffDatas { get; private set; }
+
     public ChapterData selectedChapter { get; set; }
     public CharacterData selectedCharacter { get; set; }
 
@@ -44,6 +46,8 @@ public class PlatformAdapter
 
         LastSeletedChapter = platform.LastSeletedChapter;
         LastSeletedCharacter = platform.LastSeletedCharacter;
+
+        gainableBuffDatas = platform.buffDatas;
 
         if ((chapterDatas == null || chapterDatas.Length == 0) ||
             (characterDatas == null || characterDatas.Length == 0))

@@ -23,5 +23,20 @@ namespace Roguelike.Define
         Vertical,
         Grid
     }
+
+    public enum BuffType
+    {
+        None,
+
+        AddAtkLow,
+        AddAtkMiddle,
+        AddAtkHigh,
+
+        AddSpeed,
+
+        AddMaxHp,
+
+        Max
+    }
 }
 

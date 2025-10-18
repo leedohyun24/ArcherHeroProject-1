@@ -1007,6 +1007,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e721468ea88d69c4fa56d6845958a1ec, type: 2}
   - {fileID: 11400000, guid: c0b8c501bd3ddd84cbdf6708590f7efc, type: 2}
   - {fileID: 11400000, guid: f1074bc8798ca3b4687cd131edefad56, type: 2}
+  rogueLikeBuffDatas:
+  - {fileID: 11400000, guid: 54e6e3dae78328742aeb2291cf27c713, type: 2}
+  - {fileID: 11400000, guid: f7008bd66f0663c4489aa8210f7cbbb2, type: 2}
+  - {fileID: 11400000, guid: 0c3a784d4aa1c854f852eeda7d6407c6, type: 2}
   selectedChapter: {fileID: 0}
   selectedCharacter: {fileID: 0}
 --- !u!4 &715029880
@@ -2291,7 +2295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00000053830166, y: 0}
+  m_AnchoredPosition: {x: -0.000021445838, y: 0}
   m_SizeDelta: {x: -851, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &2068560244

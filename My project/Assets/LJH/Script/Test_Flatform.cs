@@ -14,10 +14,14 @@ public class Test_Flatform : MonoBehaviour
     [SerializeField]
     private ItemData[] rogueLikespawnableItemDatas;
 
+    [SerializeField]
+    private BuffData[] rogueLikeBuffDatas;
+
     public ChapterData[] chapterDatas => (ChapterData[])rogueLikeChapterDatas.Clone();
     public CharacterData[] characterDatas => (CharacterData[])rogueLikecharacterDatas.Clone();
 
     public ItemData[] spawnableItemDatas => (ItemData[])rogueLikespawnableItemDatas.Clone();
+    public BuffData[] buffDatas => (BuffData[])rogueLikeBuffDatas.Clone();
 
     public ChapterData selectedChapter;
     public CharacterData selectedCharacter;
